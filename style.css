@@ -371,6 +371,9 @@ form {
     aside {
     display: block;
   }
+    .left-paragraph {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
