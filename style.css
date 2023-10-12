@@ -38,6 +38,7 @@ body {
 }
 
 aside {
+     display: none;
     position: fixed;
     inset: 0;
     z-index: 10;
@@ -367,6 +368,9 @@ form {
     header > .menu-icon {
         display: block;
     }
+    aside {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 640px) {
